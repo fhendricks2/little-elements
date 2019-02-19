@@ -1,0 +1,35 @@
+html , body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.slant {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.slant::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -3em;
+    left: -2em;
+    width: 150%;
+    height: 6em;
+}
+
+.slant::before {
+    background: #fff;
+    transform: rotate(8deg);
+    transition: transform 1s;
+}
+
+.slant:hover::before {
+    transform: rotate(-8deg);
+}
+
+img {
+    height: 17em;
+}
