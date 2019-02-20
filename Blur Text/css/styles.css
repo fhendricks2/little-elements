@@ -1,6 +1,12 @@
+h1 {
+    text-align: center;
+}
+
 .blur>* {
     opacity: 0;
     animation: animateBlur 5s forwards;
+    text-align: center;
+    list-style-type: none;
 }
 
 @keyframes animateBlur {
