@@ -1,0 +1,28 @@
+.pop {
+    margin: 10em;
+}
+
+.pop>* {
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    background: blue;
+}
+
+.pop>*:hover {
+    animation-name: popAnim;
+    animation-duration: 1s;
+} 
+
+@keyframes popAnim {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+}
+
+html, body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
