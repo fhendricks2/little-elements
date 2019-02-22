@@ -1,0 +1,19 @@
+[data-screen] {
+    background: #fff;
+    transition: background-color 1s;
+}
+
+[data-screen="1"] {
+    background-color: #f00;
+}
+[data-screen="2"] {
+    background-color: #00ff00;
+}
+[data-screen="3"] {
+    background-color: #2874A6;
+}
+
+article {
+    display: block;
+    min-height: 400vh;
+}
